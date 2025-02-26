@@ -1742,7 +1742,7 @@ namespace PoorMansTSqlFormatterLib.Parsers
             KeywordList.Add("COMMIT", KeywordType.OtherKeyword);
             KeywordList.Add("COMMITTED", KeywordType.OtherKeyword);
             KeywordList.Add("COMPUTE", KeywordType.OtherKeyword);
-            KeywordList.Add("CONCAT", KeywordType.OtherKeyword);
+            KeywordList.Add("CONCAT", KeywordType.FunctionKeyword);
             KeywordList.Add("CONCAT_NULL_YIELDS_NULL", KeywordType.OtherKeyword);
             KeywordList.Add("CONCURRENCYVIOLATION", KeywordType.OtherKeyword);
             KeywordList.Add("CONFIRM", KeywordType.OtherKeyword);
